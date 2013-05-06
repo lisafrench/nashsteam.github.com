@@ -101,21 +101,21 @@ header h2 {
 }
 
 #main-content {
-  width: 690px;
+  width: 675px;
   float: left;
 }
 
-#main-content img {
+#main-content img, #sidebar img  {
   max-width: 100%;
 }
 
 aside#sidebar {
   width: 200px;
-  padding-left: 20px;
+  padding-left: 60px;
   min-height: 504px;
   float: right;
   background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 1.3;
 }
 
@@ -224,35 +224,35 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-#main-content h1 {
+#sidebar h1, #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
 } 
 
-#main-content h1:before {
+#sidebar h1:before, #main-content h1:before {
   content: "/";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -0.9em;
 }
 
-#main-content h2 {
+#sidebar h2, #main-content h2 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
 } 
-#main-content h2:before {
+#sidebar h2:before, #main-content h2:before {
   content: "//";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -1.5em;
 }
 
-#main-content h3 {
+#sidebar h3, #main-content h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
@@ -261,14 +261,14 @@ form {
   color: #474747;
 } 
  
-#main-content h3:before {
+#sidebar h3:before, #main-content h3:before {
   content: "///";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2em;
 }
 
-#main-content h4 {
+#sidebar h4, #main-content h4 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 15px;
   font-weight: bold;
@@ -282,7 +282,7 @@ h4:before {
   margin-left: -2.8em;
 }
 
-#main-content h5 {
+#sidebar h5, #main-content h5 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 14px;
   color: #474747;
@@ -294,7 +294,7 @@ h5:before {
   margin-left: -3.2em;
 }
 
-#main-content h6 {
+#sidebar h6, #main-content h6 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: .8em;
   color: #474747;
@@ -390,7 +390,7 @@ footer a:hover {
     font-size: 30px;
   }
   #main-content {
-    width: 490px;
+    width: 470px;
   }
   #main-content h1:before,
   #main-content h2:before,
